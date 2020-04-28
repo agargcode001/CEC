@@ -1,9 +1,9 @@
 body{
     background-color: white;
 }
-.page{
+/* .page{
     display: inline-flex;
-}
+} */
 .navbar{
 
     margin: 0px;
@@ -22,10 +22,10 @@ body{
     border: 0px;
     display: inline-flex;
     padding: 0px;
-    margin: 17px 238px 18px 28px;
+    margin: 17px 200px 0px 28px;
     background-color: white;
     height: 83px;
-    width: 258px;
+    width: 350px;
     
 }
 .logo{
@@ -46,8 +46,8 @@ body{
     float: left;
     margin-left: 124px;
     margin-top: 12px;
-    margin-bottom: 13px;
-    height: 58px;
+    margin-right: 0px;
+    height: 89px;
 
 }
 .pageList{
@@ -65,4 +65,54 @@ body{
 }
 .pageList dl{
     margin: 22px;
+}
+.slider{
+    top: 118px;
+    position: relative;
+    margin: auto;
+}
+#slide{
+    display: block;
+    height: 872px;
+    background: url(images/samuel-oakes-Fr_XUMvQ9AU-unsplash\ 1.png);
+    width: 1440px;
+}
+#slide-text-block{
+    position: absolute;
+    margin: 0px;
+    top: 183px;
+    right: 993px;
+    left: 109px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+
+#slide-title{
+    position: absolute;
+    top: 460px;
+    right: 138px;
+    left: 109px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: rgba(255, 255, 255, 0.87);
+}
+#slide-content{
+    left: 109px;
+    top: 552px;
+    right: 264px;
+    position: absolute;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: rgba(255, 255, 255, 0.8);
 }
