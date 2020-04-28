@@ -1,0 +1,46 @@
+body{
+    background-color: yellowgreen;
+}
+.navbar{
+
+    margin: 0px;
+    border-color: tomato;
+    border: 5px;
+    position: absolute;
+    padding: 0px;
+    width: 1440px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    background-color:#FFFFFF;
+}
+.logo-bar{
+    border: 0px;
+    display: flex;
+    padding: 0px;
+    margin: 17px 1058px 18px 28px;
+    background-color: white;
+    height: 83px;
+    
+}
+.logo{
+    background-image: url(images/CEC_logo\ \(Redirects\ to\ home\).png);
+    height: 83px;
+    width: 83px;
+    margin-right: 0px;
+    position: relative;
+}
+.logo-name{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    float: left;
+    margin-left: 13px;
+    margin-top: 12px;
+    margin-bottom: 13px;
+
+}
+    
