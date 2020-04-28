@@ -70,12 +70,15 @@ body{
     top: 118px;
     position: relative;
     margin: auto;
+    
 }
 #slide{
     display: block;
     height: 872px;
-    background: url(images/samuel-oakes-Fr_XUMvQ9AU-unsplash\ 1.png);
+    /* background-image: url(images/architecture-building-business-construction-236698\ 1.png); */
     width: 1440px;
+    background-color: rgba(35, 43, 114, 0.5);
+    background-blend-mode: luminosity;
 }
 #slide-text-block{
     position: absolute;
@@ -116,3 +119,26 @@ body{
 
     color: rgba(255, 255, 255, 0.8);
 }
+.thumbs{
+    position: absolute;
+    top: 88%;
+    left: 42%;
+    right: 42%;
+    bottom: 9.5%;
+    height: 10px;
+    display: inline-block;
+}
+#slider-click{
+    display: inline-block;
+    margin: 8px;
+    width: 30px;
+    height: 5px;
+    background: rgba(189, 187, 188, 0.6);
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+#slider-click:hover{
+    background: rgba(255, 255, 255, 0.6);
+}
+

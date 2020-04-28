@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="script" type="text/script" href="Interact.js">
+    <script type="text/javascript" src="Interact.js"></script>
     <title>Civil Engineering Consortium IIT Roorkee</title>
 </head>
 <body>
@@ -32,7 +32,7 @@
     <div class="slider">
         <div class="images">
             <div id="slide">
-                <!-- <img src="images/samuel-oakes-Fr_XUMvQ9AU-unsplash 1.png" alt=""> -->
+                <img id="change" src="images/samuel-oakes-Fr_XUMvQ9AU-unsplash 1.png" alt="">
                 <div id="slide-text-block">
                     <span>Create.</span><br>
                     <span>Connect.</span><br>
@@ -47,6 +47,12 @@
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                         consequat.</p>
                 </div>
+                <div class="thumbs">
+                    <span id="slider-click" onclick="changeImg(0)"></span>
+                    <span id="slider-click" onclick="changeImg(1)"></span>
+                    <span id="slider-click" onclick="changeImg(2)"></span>
+                    <span id="slider-click" onclick="changeImg(3)"></span>
+                </div>
             </div>
             <!-- <div id="slide"><img src="images/train-running-on-train-track-under-gray-sky-at-daytime-212229 1.png" alt=""></div>
             <div id="slide">
@@ -56,13 +62,7 @@
                 <img src="images/architecture-building-business-construction-236698 1.png" alt="">
             </div> -->
         </div>
-        <div class="thumbs">
-            <span id="slider-click"></span>
-            <span id="slider-click"></span>
-            <span id="slider-click"></span>
-            <span id="slider-click"></span>
-
-       </div>
+        
     </div>
     
 </body>
