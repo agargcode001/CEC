@@ -144,4 +144,23 @@ body{
 #slider-click:hover{
     background: rgba(255, 255, 255, 0.6);
 }
+#about-bar-title{
+    position: absolute;
+    top:996px;
+    width: 200px;
+    height: 48px;
+    left: 110px;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #6269A7;
+    background-color: white;
+}
 
