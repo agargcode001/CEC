@@ -1,11 +1,95 @@
 body{
     background-color: white;
-    margin: 0px;
 }
 /* .page{
     display: inline-flex;
 } */
-.navbar{
+header {
+    margin: 0px;
+    border-color: tomato;
+    border: 5px;
+    position: absolute;
+    padding: 0px;
+    display: flex;
+    width: 1440px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    background-color:#FFFFFF;
+}
+header .container{
+height: 118px;
+}
+#main-content .container{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #FFFFFF;
+  border-radius: 0;
+  border: 0;
+  height: 118px;
+}
+
+#logo-img {
+  background: url('/images/CEC_logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Name beside the logo */
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 29px;
+    position: relative;
+    float: left;
+    margin-left: 105px;
+    margin-top: 12px;
+    margin-right: 0px;
+    height: 89px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+    text-align: center;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #BDBBBC;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*.navbar{
 
     margin: 0px;
     border-color: tomato;
@@ -26,11 +110,10 @@ body{
     margin: 17px 200px 0px 28px;
     background-color: white;
     height: 83px;
-    width: 350px;
     
 }
 .logo{
-    background-image: url(images/CEC_logo\ \(Redirects\ to\ home\).png);
+    background: url(images/CEC_logo.png);
     height: 83px;
     width: 83px;
     margin-right: 0px;
@@ -45,7 +128,7 @@ body{
     line-height: 29px;
     position: relative;
     float: left;
-    margin-left: 124px;
+    margin-left: 105px;
     margin-top: 12px;
     margin-right: 0px;
     height: 89px;
@@ -66,33 +149,22 @@ body{
 }
 .pageList dl{
     margin: 22px;
-}
+}*/
 .slider{
     top: 118px;
-    left: 0px;
     position: relative;
     margin: auto;
-    
-}
-#change{
-    width: 1440px;
 }
 #slide{
     display: block;
     height: 872px;
-    /* background-image: url(images/architecture-building-business-construction-236698\ 1.png); */
+    background: url(images/samuel-oakes-Fr_XUMvQ9AU-unsplash\ 1.png);
     width: 1440px;
-    background-color: rgba(35, 43, 114, 0.5);
-    background-blend-mode: luminosity;
-    }
-#slide img{
-    background-color: darkkhaki;
-    background-blend-mode: saturation;
 }
 #slide-text-block{
     position: absolute;
     margin: 0px;
-    top: 50px;
+    top: 183px;
     right: 993px;
     left: 109px;
     font-family: Proxima Nova;
@@ -102,9 +174,10 @@ body{
     line-height: 88px;
     color: #FFFFFF;
 }
+
 #slide-title{
     position: absolute;
-    top: 327px;
+    top: 460px;
     right: 138px;
     left: 109px;
     font-family: Proxima Nova;
@@ -116,7 +189,7 @@ body{
 }
 #slide-content{
     left: 109px;
-    top: 419px;
+    top: 552px;
     right: 264px;
     position: absolute;
     font-family: Proxima Nova;
@@ -127,46 +200,3 @@ body{
 
     color: rgba(255, 255, 255, 0.8);
 }
-.thumbs{
-    position: absolute;
-    top: 80%;
-    left: 42%;
-    right: 42%;
-    bottom: 9.5%;
-    height: 10px;
-    display: inline-block;
-}
-
-#slider-click{
-    display: inline-block;
-    margin: 8px;
-    width: 30px;
-    height: 5px;
-    background: rgba(189, 187, 188, 0.6);
-    border-radius: 2px;
-    text-align: center;
-    cursor: pointer;
-}
-#slider-click:hover{
-    background: rgba(255, 255, 255, 0.6);
-}
-#about-bar-title{
-    position: absolute;
-    top:996px;
-    width: 200px;
-    height: 48px;
-    left: 110px;
-
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 48px;
-/* identical to box height */
-
-    text-align: center;
-
-    color: #6269A7;
-    background-color: white;
-}
-
