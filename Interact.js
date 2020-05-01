@@ -23,7 +23,7 @@
 // }
 var n;
 function changeImg(n){
-    var x = ["images/samuel-oakes-Fr_XUMvQ9AU-unsplash 1.png","images/train-running-on-train-track-under-gray-sky-at-daytime-212229 1.png","images/architecture-building-business-construction-236698 1.png","images/black-and-silver-solar-panels-159397 1.png"];
+    var x = ["images/Background_image.png","images/Background2.png","images/Background3.png","images/Background4.png"];
     img = document.getElementById("change")
     img.src = x[n] 
     console.log(img.src)
