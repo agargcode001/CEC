@@ -6,7 +6,6 @@ body{
     display: inline-flex;
 } */
 .navbar{
-
     margin: 0px;
     border-color: tomato;
     border: 5px;
@@ -67,51 +66,51 @@ body{
 .pageList dl{
     margin: 22px;
 }
-.slider{
+.container{
     top: 118px;
     left: 0px;
     position: relative;
     margin: auto;
-    
+    display: block;
+    height: auto;
+    /* background-image: url(images/architecture-building-business-construction-236698\ 1.png); */
+    width: 1440px; 
 }
 #change{
     width: 1440px;
 }
-#slide{
-    display: block;
-    height: 872px;
-    /* background-image: url(images/architecture-building-business-construction-236698\ 1.png); */
-    width: 1440px;
-    background-color: rgba(35, 43, 114, 0.5);
-    background-blend-mode: luminosity;
+.container{
+    
     }
-#slide img{
+#container img{
     background-color: darkkhaki;
     background-blend-mode: saturation;
 }
 #slide-text-block{
     position: absolute;
     margin: 0px;
-    top: 50px;
+    top: 80px;
     right: 993px;
     left: 109px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
-    font-size: 72px;
-    line-height: 88px;
     color: #FFFFFF;
+    width: 263px;
+    height: 234px;
+    font-size: 56px;
+    line-height: 68px;
 }
 #slide-title{
     position: absolute;
-    top: 327px;
+    top: 300px;
     right: 138px;
     left: 109px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 36px;
+    line-height: 44px;
     color: rgba(255, 255, 255, 0.87);
 }
 #slide-content{
@@ -122,14 +121,13 @@ body{
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
-
+    font-size: 24px;
+line-height: 29px;
     color: rgba(255, 255, 255, 0.8);
 }
 .thumbs{
     position: absolute;
-    top: 80%;
+    top: 600px;
     left: 42%;
     right: 42%;
     bottom: 9.5%;
@@ -170,3 +168,248 @@ body{
     background-color: white;
 }
 
+.about-us{
+    position: absolute;
+    width: 1142px;
+    height: 487px;
+    left: 149px;
+    top: 900px;
+
+}
+#heading{
+    position: relative;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #6269A7;
+}
+
+#subheading{
+    font-family: Proxima Nova;
+    position: relative;
+    top: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+#content{
+    position: relative;
+    top:130px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#Learn-more{
+    position: relative;
+    width: 112px;
+    height: 36px;
+    left: 1000px;
+    top: 180px;
+    background: #6269A7;
+    border-radius: 5px;
+}
+
+#Learn-more-content{
+    position: relative;
+    font-family: Proxima Nova;
+    top: 5px;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+#Learn-more:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Projects{
+    position: relative;
+    width: 1440px;
+    height: 765px;
+    left: 0px;
+    top: 750px;
+    background: #6269A7;
+    overflow: hidden;
+}
+.Projects #heading{
+    position: relative;
+    width: 131px;
+    height: 36px;
+    left: 149px;
+    top: 90px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+#View-all{
+    position: relative;
+    width: 94px;
+    height: 36px;
+    left: 1197px;
+    top: 80px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+#View-all-content{
+    position: relative;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    top: 5px;
+    margin: 0px;
+    color: #6269A7;
+}
+#View-all:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Project-content{
+    width: 1080px;
+    height: 60px;
+    left: 149px;
+    position: relative;
+    top: 100px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+#main-project{
+    float: center;
+    position: relative;
+    width: 662.07px;
+    height: 397.92px;
+    left: 388.85px;
+    top: 140px;
+    background: #E6E4F4;
+    border-radius: 10px;
+}
+
+#main-project-content{
+    position: relative;
+    width: 603.68px;
+    height: 350.22px;
+    left: 29.76px;
+    top: 25.3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 10px;
+}
+#succeeding-project{
+    float: right;
+    position: relative;
+    width: 422px;
+    left: 10px;
+    height: 318px;
+    top: -215px;
+    background: #E6E4F4;
+    border-radius: 10px;
+}
+#succeeding-project-content{
+    position: relative;
+    width: 461.41px;
+    height: 267.68px;
+    left: 38.85px;
+    top: 23.65px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+#preceeding-project{
+    float: left;
+    position: relative;
+    width: 440px;
+    height: 318px;
+    left: -35px;
+    top: -215px;
+    background: #E6E4F4;
+    border-radius: 10px;
+}
+#preceeding-project-content{   
+    position: relative;
+    width: 461.41px;
+    height: 267.68px;
+    top: 23.65px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    left: -55px;
+}
+
+.Activities{
+    position: relative;
+    width:1440px;
+    height: 765px;
+    left: 0px;
+    top: 756px;
+}
+.Activities #heading{
+    position: relative;
+    width: 131px;
+    height: 36px;
+    left: 149px;
+    top: 90px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    color: #6269A7;
+}
+
+.Activities #View-all{
+    position: relative;
+    width: 94px;
+    height: 36px;
+    left: 1197px;
+    top: 80px;
+    background: #6269A7;
+    border-radius: 5px;
+}
+.Activities #View-all-content{
+    position: relative;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    top: 5px;
+    margin: 0px;
+    color: white;
+}
+.Activities #View-all:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Activities-content{
+    left: 149px;
+    width: 1080px;
+    height: 60px;
+    position: relative;
+    top: 100px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
