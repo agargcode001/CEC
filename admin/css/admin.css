@@ -17,7 +17,7 @@
 .wrapper .side-bar{
     position: fixed;
     height: 100%;
-    width: 200px;
+    width: px;
     background-color: #6269A7;
     padding: 30px 0px;
     
@@ -30,23 +30,30 @@
 }
 
 .wrapper .side-bar ul li{
-    padding: 15px;
-    border-bottom: 1px solid ivory;
-    border-top: 1px solid ivory;
+    /* padding: 15px; */
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 
+}
+.wrapper .side-bar ul li i{
+    width: 120px;
 }
 .wrapper .side-bar ul li a{
     color: #FFFFFF;
+    width: 100px;
+    height: 50px;
 }
 .wrapper .side-bar ul li a .fas{
-    width: 28px;
-    padding: 20px;
+    width: 128px;
+    padding: 10px;
+    margin: 5px;
     
 
 }
 
 .wrapper .side-bar ul li a:hover{
     background-color: lightblue;
+    border-bottom: 1px solid ivory;
+    border-top: 1px solid ivory;
 }
