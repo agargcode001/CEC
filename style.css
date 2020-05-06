@@ -5,6 +5,17 @@ body{
 /* .page{
     display: inline-flex;
 } */
+.nav ul dl a{
+    text-decoration: none;
+    color: #BDBBBC;;
+}
+.nav .pageList .active{
+    color: #656263;
+}
+.nav ul dl a:hover{
+    color: #656263;
+    text-decoration: none;
+}
 .navbar{
 
     margin: 0px;
@@ -73,6 +84,12 @@ body{
     position: relative;
     margin: auto;
     
+}
+.images{
+    background-color: rgba(35, 43, 114, 0.5);
+}
+.images img{
+    mix-blend-mode: overlay;
 }
 #change{
     width: 1440px;
@@ -169,4 +186,34 @@ body{
     color: #6269A7;
     background-color: white;
 }
+
+/*Css of Project Page Start */
+.projectTtitle{
+    position: absolute;
+    top: 117px;
+    height: 163px;
+    box-sizing: content-box;
+    background-color: rgba(35, 43, 114, 0.5);
+
+}
+.projectTtitle img{
+    mix-blend-mode: overlay;
+}
+.projectText span{
+    position: relative;
+    background-color: blue;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
+    color: black;
+
+
+}
+
+
+
+
+/*Css of Project Page End*/
 
