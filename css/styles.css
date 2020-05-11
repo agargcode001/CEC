@@ -120,78 +120,7 @@ nav img{
     padding-bottom: 100px;
 }
 
-/***.navbar-brand{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}*/
-/*.logo-bar{
-    border: 0px;
-    display: inline-flex;
-    padding: 0px;
-    margin: 17px 200px 0px 28px;
-    background-color: white;
-    height: 83px;
-    width: 350px;
-    
-}
-.logo{
-    background-image: url(images/CEC_logo\ \(Redirects\ to\ home\).png);
-    height: 83px;
-    width: 83px;
-    margin-right: 0px;
-    position: absolute;
-    margin-right: 13px;
-}
-.logo-name{
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    position: relative;
-    float: left;
-    margin-left: 124px;
-    margin-top: 12px;
-    margin-right: 0px;
-    height: 89px;
 
-}
-.pageList{
-    display: inline-flex;
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 22px;
-    color: #BDBBBC;
-    
-}
-.pageList :active{
-    color: black;
-}
-.pageList dl{
-    margin: 22px;
-}
-#container{
-    top: 118px;
-    left: 0px;
-    position: relative;
-    margin: auto;
-    display: block;
-    height: auto;
-    /* background-image: url(images/architecture-building-business-construction-236698\ 1.png); */
-    /**width: 1440px; 
-}
-#change{
-    width: 1440px;
-}
-
-#container img{
-    background-color: darkkhaki;
-    background-blend-mode: saturation;
-}
-*/
 #slide-text-block{
     position: absolute;
     margin: 0px;
@@ -231,50 +160,6 @@ nav img{
     line-height: 29px;
     color: rgba(255, 255, 255, 0.8);
 }
-/*.thumbs{
-    position: absolute;
-    top: 600px;
-    left: 42%;
-    right: 42%;
-    bottom: 9.5%;
-    height: 10px;
-    display: inline-block;
-}
-
-#slider-click{
-    display: inline-block;
-    margin: 8px;
-    width: 30px;
-    height: 5px;
-    background: rgba(189, 187, 188, 0.6);
-    border-radius: 2px;
-    text-align: center;
-    cursor: pointer;
-}
-#slider-click:hover{
-    background: rgba(255, 255, 255, 0.6);
-}
-#about-bar-title{
-    position: absolute;
-    top:996px;
-    width: 200px;
-    height: 48px;
-    left: 110px;
-
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 48px;
-/* identical to box height */
-
-    /**text-align: center;
-
-    color: #6269A7;
-    background-color: white;
-}
-*/
-
 
 .Projects{
     height: 765px;
@@ -416,7 +301,123 @@ nav img{
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-}***/
+}*/
+/*.thumbs{
+    position: absolute;
+    top: 600px;
+    left: 42%;
+    right: 42%;
+    bottom: 9.5%;
+    height: 10px;
+    display: inline-block;
+}
+
+#slider-click{
+    display: inline-block;
+    margin: 8px;
+    width: 30px;
+    height: 5px;
+    background: rgba(189, 187, 188, 0.6);
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+#slider-click:hover{
+    background: rgba(255, 255, 255, 0.6);
+}
+#about-bar-title{
+    position: absolute;
+    top:996px;
+    width: 200px;
+    height: 48px;
+    left: 110px;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+/* identical to box height */
+
+    /**text-align: center;
+
+    color: #6269A7;
+    background-color: white;
+}
+*/
+/***.navbar-brand{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}*/
+/*.logo-bar{
+    border: 0px;
+    display: inline-flex;
+    padding: 0px;
+    margin: 17px 200px 0px 28px;
+    background-color: white;
+    height: 83px;
+    width: 350px;
+    
+}
+.logo{
+    background-image: url(images/CEC_logo\ \(Redirects\ to\ home\).png);
+    height: 83px;
+    width: 83px;
+    margin-right: 0px;
+    position: absolute;
+    margin-right: 13px;
+}
+.logo-name{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    float: left;
+    margin-left: 124px;
+    margin-top: 12px;
+    margin-right: 0px;
+    height: 89px;
+
+}
+.pageList{
+    display: inline-flex;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #BDBBBC;
+    
+}
+.pageList :active{
+    color: black;
+}
+.pageList dl{
+    margin: 22px;
+}
+#container{
+    top: 118px;
+    left: 0px;
+    position: relative;
+    margin: auto;
+    display: block;
+    height: auto;
+    /* background-image: url(images/architecture-building-business-construction-236698\ 1.png); */
+    /**width: 1440px; 
+}
+#change{
+    width: 1440px;
+}
+
+#container img{
+    background-color: darkkhaki;
+    background-blend-mode: saturation;
+}
+*/
+
 
 @media (min-width: 1400px)
 {
