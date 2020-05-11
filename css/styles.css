@@ -46,6 +46,78 @@ nav img{
     max-width: 100%;
     padding: 0px;
     overflow: hidden;
+    height: auto;
+}
+.about-us{
+    position: relative;
+    width: 1142px;
+    height: 487px;
+    /*left: 149px;
+    top: 900px;*/
+
+}
+
+#heading{
+    position: relative;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #6269A7;
+}
+
+#subheading{
+    font-family: Proxima Nova;
+    position: relative;
+    top: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+#content{
+    position: relative;
+    top:130px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+#Learn-more{
+    position: relative;
+    width: 112px;
+    height: 36px;
+    left: 1100px;
+    top: 180px;
+    background: #6269A7;
+    border-radius: 5px;
+}
+
+#Learn-more-content{
+    font-family: Proxima Nova;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+#Learn-more:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.row-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /***.navbar-brand{
@@ -201,87 +273,16 @@ nav img{
     color: #6269A7;
     background-color: white;
 }
+*/
 
-.about-us{
-    position: absolute;
-    width: 1142px;
-    height: 487px;
-    left: 149px;
-    top: 900px;
 
-}
-#heading{
-    position: relative;
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 36px;
-    /* identical to box height */
-    /*color: #6269A7;
-}
-
-#subheading{
-    font-family: Proxima Nova;
-    position: relative;
-    top: 60px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 34px;
-    color: #000000;
-}
-
-#content{
-    position: relative;
-    top:130px;
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-}
-
-#Learn-more{
-    position: relative;
-    width: 112px;
-    height: 36px;
-    left: 1000px;
-    top: 180px;
-    background: #6269A7;
-    border-radius: 5px;
-}
-
-#Learn-more-content{
-    position: relative;
-    font-family: Proxima Nova;
-    top: 5px;
-    margin: 0px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-#Learn-more:hover{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 .Projects{
-    position: relative;
-    width: 1440px;
     height: 765px;
-    left: 0px;
-    top: 750px;
     background: #6269A7;
-    overflow: hidden;
 }
 .Projects #heading{
-    position: relative;
     width: 131px;
     height: 36px;
-    left: 149px;
-    top: 90px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: 600;
@@ -294,8 +295,7 @@ nav img{
     position: relative;
     width: 94px;
     height: 36px;
-    left: 1197px;
-    top: 80px;
+    left: 1100px;
     background: #FFFFFF;
     border-radius: 5px;
 }
@@ -306,7 +306,6 @@ nav img{
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
-    top: 5px;
     margin: 0px;
     color: #6269A7;
 }
@@ -318,8 +317,6 @@ nav img{
     width: 1080px;
     height: 60px;
     left: 149px;
-    position: relative;
-    top: 100px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
@@ -329,67 +326,40 @@ nav img{
 }
 
 #main-project{
-    float: center;
-    position: relative;
-    width: 662.07px;
+    padding-top: 25px;
     height: 397.92px;
-    left: 388.85px;
-    top: 140px;
     background: #E6E4F4;
     border-radius: 10px;
 }
-
 #main-project-content{
-    position: relative;
-    width: 603.68px;
     height: 350.22px;
-    left: 29.76px;
-    top: 25.3px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: white;
     border-radius: 10px;
 }
 #succeeding-project{
-    float: right;
-    position: relative;
-    width: 422px;
-    left: 10px;
+    padding-top: 25px;
     height: 318px;
-    top: -215px;
     background: #E6E4F4;
-    border-radius: 10px;
 }
 #succeeding-project-content{
-    position: relative;
-    width: 461.41px;
     height: 267.68px;
-    left: 38.85px;
-    top: 23.65px;
     background-color: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 #preceeding-project{
-    float: left;
-    position: relative;
-    width: 440px;
+    padding-top: 25px;
     height: 318px;
-    left: -35px;
-    top: -215px;
     background: #E6E4F4;
-    border-radius: 10px;
 }
-#preceeding-project-content{   
-    position: relative;
-    width: 461.41px;
+#preceeding-project-content{
     height: 267.68px;
-    top: 23.65px;
     background-color: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    left: -55px;
 }
-
+/*
 .Activities{
     position: relative;
     width:1440px;
