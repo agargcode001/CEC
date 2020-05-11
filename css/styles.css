@@ -1,24 +1,50 @@
+
 body{
+    padding-top: 90px;
     background-color: white;
     margin: 0px;
 }
+.navbar-text{
+    padding-left: 10; 
+    line-height: 25px;
+    color: black;
+}
 /* .page{
-    display: inline-flex;
+    display: inline-flex1
 } */
 .navbar{
-    margin: 0px;
-    border-color: tomato;
-    border: 5px;
-    position: absolute;
-    padding: 0px;
-    display: flex;
-    width: 1440px;
-    height: 118px;
-    left: 0px;
-    top: 0px;
     background-color:#FFFFFF;
 }
-.logo-bar{
+nav {
+    height: 90px;
+    box-shadow: 0px 0px 4px;
+}
+ul a{
+    color: grey;
+}
+ul .active a{
+    color:black;
+}
+
+ul a:hover{
+    color:black;
+}
+nav .container{
+    width: 100%;
+}
+nav img{
+    float: left;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+/***.navbar-brand{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}*/
+/*.logo-bar{
     border: 0px;
     display: inline-flex;
     padding: 0px;
@@ -66,7 +92,7 @@ body{
 .pageList dl{
     margin: 22px;
 }
-.container{
+#container{
     top: 118px;
     left: 0px;
     position: relative;
@@ -74,18 +100,17 @@ body{
     display: block;
     height: auto;
     /* background-image: url(images/architecture-building-business-construction-236698\ 1.png); */
-    width: 1440px; 
+    /**width: 1440px; 
 }
 #change{
     width: 1440px;
 }
-.container{
-    
-    }
+
 #container img{
     background-color: darkkhaki;
     background-blend-mode: saturation;
 }
+
 #slide-text-block{
     position: absolute;
     margin: 0px;
@@ -162,7 +187,7 @@ line-height: 29px;
     line-height: 48px;
 /* identical to box height */
 
-    text-align: center;
+    /**text-align: center;
 
     color: #6269A7;
     background-color: white;
@@ -184,7 +209,7 @@ line-height: 29px;
     font-size: 36px;
     line-height: 36px;
     /* identical to box height */
-    color: #6269A7;
+    /*color: #6269A7;
 }
 
 #subheading{
@@ -412,4 +437,11 @@ line-height: 29px;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
+}***/
+
+@media (min-width: 1400px)
+{
+    .container{
+        max-width: 1380;
+    }
 }
