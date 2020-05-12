@@ -54,7 +54,6 @@ nav img{
     height: 487px;
     /*left: 149px;
     top: 900px;*/
-
 }
 
 #heading{
@@ -62,7 +61,7 @@ nav img{
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 200%;
     line-height: 36px;
     /* identical to box height */
     color: #6269A7;
@@ -74,7 +73,7 @@ nav img{
     top: 60px;
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 150%;
     line-height: 34px;
     color: #000000;
 }
@@ -85,7 +84,7 @@ nav img{
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 100%;
     line-height: 30px;
 }
 
@@ -95,7 +94,7 @@ nav img{
     position: relative;
     width: 112px;
     height: 36px;
-    left: 1100px;
+    left: 93%;
     top: 180px;
     background: #6269A7;
     border-radius: 5px;
@@ -116,49 +115,50 @@ nav img{
 }
 
 .row-content{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
+#carousel-top{
+    padding: 8%;
+    position: absolute;
+    float: left;
+    z-index: 1;
+    width: 100%;
+}
 
 #slide-text-block{
-    position: absolute;
+    position: relative;
     margin: 0px;
-    top: 100px;
-    right: 993px;
-    left: 150px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
     color: #FFFFFF;
-    width: 263px;
-    height: 234px;
-    font-size: 56px;
-    line-height: 68px;
+    width: auto;
+    height: auto;
+    font-size: 300%;
+    line-height: 130%;
 }
 #slide-title{
-    position: absolute;
-    top: 330px;
-    right: 138px;
-    left: 150px;
+    padding: 4% 0%;
+    position: relative;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 200%;
     line-height: 44px;
     color: rgba(255, 255, 255, 0.87);
+    visibility: hidden;
 }
 #slide-content{
-    left: 150px;
-    top: 440px;
-    right: 264px;
-    position: absolute;
+    position: relative;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 130%;
     line-height: 29px;
     color: rgba(255, 255, 255, 0.8);
+    visibility: hidden;
 }
 
 .Projects{
@@ -166,8 +166,6 @@ nav img{
     background: #6269A7;
 }
 .Projects #heading{
-    width: 131px;
-    height: 36px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: 600;
@@ -180,7 +178,7 @@ nav img{
     position: relative;
     width: 94px;
     height: 36px;
-    left: 1100px;
+    left: 95%;
     background: #FFFFFF;
     border-radius: 5px;
 }
@@ -199,9 +197,6 @@ nav img{
 }
 
 #Project-content{
-    width: 1080px;
-    height: 60px;
-    left: 149px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
@@ -418,6 +413,19 @@ nav img{
 }
 */
 
+@media (min-width: 846px)
+{
+    #slide-title{
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1284px)
+{
+    #slide-content{
+        visibility: visible;
+    }
+}
 
 @media (min-width: 1400px)
 {
