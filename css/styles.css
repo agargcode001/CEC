@@ -101,6 +101,7 @@ nav img{
 }
 
 #Learn-more-content{
+    padding-top: 2px;
     font-family: Proxima Nova;
     margin: 0px;
     font-style: normal;
@@ -183,6 +184,7 @@ nav img{
     border-radius: 5px;
 }
 #View-all-content{
+    padding-top: 2px;
     position: relative;
     font-family: Proxima Nova;
     font-style: normal;
@@ -256,6 +258,7 @@ nav img{
     border-radius: 5px;
 }
 #View-all-content-Activities{
+    padding-top: 2px;
     position: relative;
     font-family: Proxima Nova;
     font-style: normal;
@@ -403,6 +406,20 @@ nav img{
     color:white;
     padding-left: 10px;
 }
+
+
+
+
+/* About Us Page */
+
+.space{
+    margin-top: 100px;
+}
+
+
+
+
+
 /*#block4{
     visibility: hidden;
 }
