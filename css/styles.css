@@ -239,6 +239,177 @@ nav img{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
+
+#Activities-content{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+#View-all-Activity{
+    position: relative;
+    width: 94px;
+    height: 36px;
+    left: 95%;
+    background: #6269A7;
+    border-radius: 5px;
+}
+#View-all-content-Activities{
+    position: relative;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+.Activity-block{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(128, 128, 128, 0.25);
+    border-radius: 20px;
+    height: 423.55px;
+}
+.activity-picture{
+    margin-top: 10px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 222.16px;
+    width: 223.11px;
+}
+.Activities-array{
+    padding-top: 30px;
+}
+.activity-name{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 20px; 
+}
+.activity-content{
+    padding-top: 15px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.apicture{
+    overflow: hidden;
+    padding: 0px;
+    width: 100%;
+    border-radius: 20px; 
+}
+.blog-pic{
+    padding-top: 20px;
+}
+.blog-content{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 10px;
+}
+.blog-heading{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: medium;
+    font-size: 24px;
+    line-height: 19px;
+}
+.blog-date{
+    padding-top: 10px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #6269A7;
+}
+.footer{
+    background-color: #6269A7;
+    margin-top: 100px;
+    height: 275px;
+}
+.copyright-content{
+    padding-top: 10px;
+    padding-left: 100px;
+    background-color: #1C256A;
+    color: white;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    height: 34px;
+}
+.contact-us{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+.contact-us-heading{
+    padding-top: 30px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+
+}
+.contact-font{
+    padding-top: 10px;
+    color: white;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.footer-row{
+    height: 241px;
+}
+.edifice{
+    padding-top: 5px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+}
+#links{
+    padding-top: 30px;
+}
+.list-item a{
+    color: white;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 12px;
+}
+.footer-icons{
+    color:white;
+    padding-left: 10px;
+}
+/*#block4{
+    visibility: hidden;
+}
+#block3{
+    visibility: hidden;
+}*/
+
 /*
 .Activities{
     position: relative;
