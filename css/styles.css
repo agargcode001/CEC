@@ -117,7 +117,7 @@ nav img{
 
 .row-content{
     padding-top: 8%;
-    padding-bottom: 8%;
+    padding-bottom: 5%;
 }
 
 #carousel-top{
@@ -281,7 +281,6 @@ nav img{
     width: 223.11px;
 }
 .Activities-array{
-    padding-top: 30px;
 }
 .activity-name{
     font-family: Proxima Nova;
@@ -413,12 +412,61 @@ nav img{
 /* About Us Page */
 
 .space{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
+.jumbotron{
+    width: 1440px;
+    height: 163px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
 
+#Activities-head{
+    background: url(../images/Activities-head.png) no-repeat;
+}
 
+.jumbotron-head{
+    padding-left: 100px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
 
+    color: #FFFFFF;
+}
+
+.Activities-subhead{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    color: #6269A7;
+}
+
+.row-dep{
+    padding-top: 8%;
+}
+
+.About-head{
+    padding-bottom: 20px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    color: #6269A7;
+
+}
+
+.image-about{
+    width: 270px;
+    height: 270px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
 
 /*#block4{
     visibility: hidden;
