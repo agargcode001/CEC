@@ -117,7 +117,7 @@ nav img{
 
 .row-content{
     padding-top: 8%;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 
 #carousel-top{
@@ -467,6 +467,45 @@ nav img{
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
+
+.Project-image{
+    width: 352px;
+    height: 207px;
+    border-radius: 5px;
+}
+
+.Project-head{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #393536;
+}
+
+.Project-details{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #656263;
+    width: 352px;
+    padding-bottom: 32px;
+}
+
+.Read-more-projects{
+    background: #6269A7;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.Read-more-projects-content{
+    color: white;
+}
+
 
 /*#block4{
     visibility: hidden;
