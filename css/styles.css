@@ -406,6 +406,12 @@ nav img{
     padding-left: 10px;
 }
 
+.blog-head-image{
+    width: 581px;
+    height: 337.06px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
 
 
 
@@ -506,7 +512,72 @@ nav img{
     color: white;
 }
 
+.blog-head{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
 
+    color: #000000;
+
+}
+
+.blog-details{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #393536;
+
+}
+
+.blog-head-date{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #6269A7;
+
+}
+
+.blog-header{
+    padding-left: 50px;
+}
+
+.blog-row{
+    padding-top: 30px;
+}
+
+.coming-soon{
+    width: 258px;
+    height: 258px;
+}
+
+.coming-soon-head{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    color: #6269A7;
+}
+
+.coming-soon-subhead{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #6269A7;
+}
+
+.cs{
+    padding-left: 50px;
+}
 /*#block4{
     visibility: hidden;
 }
