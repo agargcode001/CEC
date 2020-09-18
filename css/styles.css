@@ -55,7 +55,7 @@ nav img{
     /*left: 149px;
     top: 900px;*/
 }
-
+ 
 #heading{
     position: relative;
     font-family: Proxima Nova;
@@ -778,4 +778,198 @@ nav img{
     .container{
         max-width: 100%;
     }
+}
+
+@media (max-width: 845px)
+{
+    #navbar{
+        background-color: white;
+    }
+   #carousel-top{
+    padding: 8%;
+    position: absolute;
+    float: left;
+    z-index: 1;
+    width: 100%;
+    height: 150%;
+    background-color:#3C4497;
+    background-image: linear-gradient(#99A1F3, #6169BC, #3C4497);
+}
+
+#slide-text-block{
+    position: relative;
+    padding-top: 20%;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    font-size: 300%;
+    line-height: 130%;
+}
+#slide-title{
+    padding: 20% 0%;
+    position: relative;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 44px;
+    visibility: visible;
+    color: rgba(255, 255, 255, 0.87);
+}
+#carousel-content{
+    height: 70%;
+}
+#second-fold{
+    position: relative;
+    padding: 10%;
+    height: 200%;
+}
+#subheading{
+    font-family: Proxima Nova;
+    position: relative;
+    top: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150%;
+    line-height: 34px;
+    color: #000000;
+}
+#Learn-more{
+    position: relative;
+    width: 112px;
+    height: 36px;
+    left: 65%;
+    top: 180px;
+    background: #6269A7;
+    border-radius: 5px;
+}
+.Projects{
+    position: relative;
+    padding: 10%;
+    background: #6269A7;
+}
+#View-all{
+    position: relative;
+    top: -35px;
+    width: 94px;
+    height: 36px;
+    left: 70%;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+#Project-content{
+    padding-bottom: 30px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+#preceeding-project{
+    margin-bottom: 20px;
+    padding-top: 0px;
+    height: 267.68px;
+    border-radius: 10px;
+}
+#preceeding-project-content{
+    height: 267.68px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+#main-project{
+    padding-top: 0px;
+    height: 267.68px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#main-project-content{
+    height: 267.68px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 10px;
+}
+#succeeding-project{
+    padding-top: 0px;
+    height: 267.68px;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+#succeeding-project-content{
+    height: 267.68px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    visibility: hidden;
+}
+.Projects{
+    height: 150%;
+    background: #6269A7;
+}
+#activities{
+    position: relative;
+    padding: 10%;
+    height: 200%;
+}
+#View-all-Activity{
+    position: relative;
+    top: -35px;
+    width: 94px;
+    height: 36px;
+    left: 70%;
+    background: #6269A7;
+    border-radius: 5px;
+}
+#activities-block{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.navbar-toggler{
+    color: #000000;
+}
+
+#Activities-head{
+    background-color:#3C4497;
+    background-image: linear-gradient(#99A1F3, #6169BC, #3C4497);
+    width: 100%;
+}
+
+#vision{
+    padding: 10%;
+}
+.jumbotron-head{
+    padding-left: 0px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+.image-about{
+    position: relative;
+    left: 10%;
+    margin-bottom: 10%;
+    width: 270px;
+    height: 270px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.pjct{
+    padding-left: 12%;
+    margin-bottom: 10%;
+}
+.Activity-block{
+    margin-left: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(128, 128, 128, 0.25);
+    border-radius: 20px;
+    height: 423.55px;
+    width: 80%;
+}
 }
