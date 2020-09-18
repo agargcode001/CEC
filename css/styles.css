@@ -119,6 +119,19 @@ nav img{
     padding-top: 8%;
     padding-bottom: 4%;
 }
+.image-holder{
+    width: 90%;
+    height: 100%;
+}
+.carousel-holder{
+    padding-top: 2%;
+    padding-bottom: 0%;
+}
+.content-holder{
+    margin-top: -8%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
 
 #carousel-top{
     padding: 8%;
@@ -578,6 +591,44 @@ nav img{
 .cs{
     padding-left: 50px;
 }
+
+.title-projects{
+    color: white;
+}
+.title-projects:hover {
+    color: white;
+    
+}
+
+.image-holder-projects{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(270deg, rgba(89, 88, 88, 0.3) 0.77%, rgba(66, 66, 66, 0.3) 98.61%);
+    border-radius: 25px;
+}
+#project-carousel{
+    width: 500px;
+    height: 500px;
+}
+
+
+.next-slide{
+    left: 75%;
+}
+.slider{
+    left: -5%;
+}
+
+.team-member{
+    padding-top: 15px;
+    font-size: 30px;
+    font: bold;
+}
+
+.pjtheading{
+    font-size: 30px;
+    font: bold;
+}
 /*#block4{
     visibility: hidden;
 }
@@ -946,7 +997,7 @@ nav img{
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 68px;
     color: #FFFFFF;
 }
@@ -971,5 +1022,28 @@ nav img{
     border-radius: 20px;
     height: 423.55px;
     width: 80%;
+}
+.pip{
+    font-size: 30px;
+}
+.image-holder{
+    width: 380px;
+    height: 250px;
+}
+.carousel-holder{
+    padding-left: 4%;
+}
+.pcontent{
+    padding: 10%;
+}
+.slider{
+    top: 230px;
+}
+.prev-slide{
+    top: -250px;
+}
+.next-slide{
+    top: -250px;
+    left: 85%;
 }
 }
